@@ -52,7 +52,7 @@ Foram planejados os seguintes ataques de força bruta, detalhando as etapas e os
         medusa -h <IP_METASPLOITABLE> -u <USUARIO_FTP> -P <CAMINHO_PARA_WORDLIST_SENHAS> -M ftp
         ```
         *Exemplo de usuário comum no Metasploitable: `msfadmin`*
-* **Imagens Ilustrativas:** [Incluir aqui links para imagens de nmap ou medusa em ação contra FTP, buscando na web, como esta](https://www.google.com/search?q=medusa+ftp+bruteforce+kali+linux&tbm=isch)
+* **Imagens Ilustrativas:** ![Exemplo de ataque de força bruta em FTP usando Medusa](https://cdn.hashnode.com/res/hashnode/image/upload/v1727713805524/86b3bfa0-de7e-470d-8482-310a3aa5f37a.png)
 
 #### b) Automação de Tentativas em Formulário Web (DVWA)
 
@@ -68,7 +68,7 @@ Foram planejados os seguintes ataques de força bruta, detalhando as etapas e os
         ```
         * _**Observação:** O comando acima é um exemplo simplificado. A string HTTP POST completa precisaria ser capturada e adaptada de uma requisição real do navegador, incluindo cookies e tokens de sessão/segurança do DVWA._
         * _**Alternativa:** Para formulários web, ferramentas como o Burp Suite Intruder são geralmente mais adequadas e flexíveis, permitindo capturar a requisição, definir "points de ataque" para usuário e senha, e analisar as respostas para identificar logins bem-sucedidos._
-* **Imagens Ilustrativas:** [Incluir aqui links para imagens do login do DVWA, ou burp suite/medusa em ação contra web forms, buscando na web, como esta](https://www.google.com/search?q=dvwa+login+page&tbm=isch)
+* **Imagens Ilustrativas:** [Incluir aqui links para imagens do login do DVWA, ou burp suite/medusa em ação contra web forms, buscando na web, como esta](https://deltarisk.com/wp-content/uploads/2020/05/figure-18-1024x535.png)
 
 #### c) Password Spraying em SMB (Server Message Block) com Enumeração de Usuários
 
@@ -85,7 +85,7 @@ Foram planejados os seguintes ataques de força bruta, detalhando as etapas e os
         ```
         *Exemplos de usuários comuns no Metasploitable: `msfadmin`, `user`*
         *Exemplos de senhas comuns: `password`, `123456`, `admin`*
-* **Imagens Ilustrativas:** [Incluir aqui links para imagens de enum4linux ou medusa em ação contra SMB, buscando na web, como esta](https://www.google.com/search?q=medusa+smb+password+spraying+kali+linux&tbm=isch)
+* **Imagens Ilustrativas:** [Incluir aqui links para imagens de enum4linux ou medusa em ação contra SMB, buscando na web, como esta](https://cybersapiens.com.au/wp-content/uploads/2024/11/image-showing-example-of-shared-folders-output-from-enum4linux-showing-directories-and-their-permissions-1024x592.png)
 
 ## 4. Testes e Recomendações de Mitigação
 
